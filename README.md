@@ -1,4 +1,4 @@
-#  Intrusion Detection System (IDS)
+#  1. Intrusion Detection System (IDS)
 
 >Code Description:
 Packet Capture:
@@ -27,3 +27,16 @@ Implement the ability to block suspicious IPs using built-in firewall mechanisms
 Add additional methods to detect other types of attacks, such as port scanning, ARP spoofing, etc.
 
 >This approach allows you to create a simple but effective system for monitoring and protecting against certain types of attacks.
+
+# 2. Simple Web Application Security Scanner
+ 
+
+>The basic scanner will check for:
+
+SQL Injection: By injecting simple payloads into parameters.
+
+Cross-Site Scripting (XSS): By injecting script tags into inputs.
+
+Directory Traversal: Checking if the app is vulnerable to path traversal attacks.
+
+Security Headers: Checking for missing HTTP security headers like X-Content-Type-Options, X-Frame-Options, and Strict-Transport-Security.
