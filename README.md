@@ -1,1 +1,29 @@
-# cybersecurity_python
+#  Intrusion Detection System (IDS)
+
+>Code Description:
+Packet Capture:
+We use scapy.sniff() to capture packets in real time. The packet_callback() function will be called for each packet to analyze it and look for suspicious signs.
+
+>Frequent Request Detection:
+We monitor the number of requests from each IP. If one IP makes too many requests in a short time, it may be a sign of a DDoS attack, and the system adds this IP to the suspicious list.
+
+>Suspicious Port Detection:
+We check the ports to which packets are sent. If these are ports that are often used for attacks (for example, port 21 - FTP, port 23 - Telnet), the system will notify about suspicious traffic.
+
+>Alert:
+When the system detects a suspicious IP or port, it will print a corresponding message to the console.
+
+>Further Improvements:
+Snort Rules:
+In a real IDS system, more complex Snort rules can be integrated to detect attacks. This will require either using an external library to interpret Snort rules or writing your own parser.
+
+>Log storage:
+Add saving of suspicious events to a file or database for further analysis.
+
+>Automatic blocking of attackers:
+Implement the ability to block suspicious IPs using built-in firewall mechanisms (for example, using iptables on Linux).
+
+>Processing various types of attacks:
+Add additional methods to detect other types of attacks, such as port scanning, ARP spoofing, etc.
+
+>This approach allows you to create a simple but effective system for monitoring and protecting against certain types of attacks.
