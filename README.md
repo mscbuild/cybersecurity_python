@@ -1,4 +1,4 @@
-# Python projects for cybersecurity.
+# 🛡️ Python projects for cybersecurity.
 
 Cybersecurity is a critical field, and Python is a popular programming language for developing tools and projects in this domain.
 
