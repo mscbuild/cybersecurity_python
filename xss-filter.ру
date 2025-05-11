@@ -1,4 +1,6 @@
-import web, os, pxfilter
+import os
+import sys
+import web, pxfilter
 
 urls = (
     '.*', 'router'
