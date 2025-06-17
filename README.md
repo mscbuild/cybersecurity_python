@@ -1,4 +1,12 @@
 # 🛡️ Python projects for cybersecurity.
+  ![](https://komarev.com/ghpvc/?username=mscbuild) 
+ ![](https://img.shields.io/github/license/mscbuild/e-learning) 
+ ![](https://img.shields.io/github/repo-size/mscbuild/cybersecurity_python)
+![](https://img.shields.io/badge/PRs-Welcome-green)
+![](https://img.shields.io/badge/code%20style-react-green)
+![](https://img.shields.io/github/stars/mscbuild)
+![](https://img.shields.io/badge/Topic-Github-lighred)
+![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
 
 Cybersecurity is a critical field, and Python is a popular programming language for developing tools and projects in this domain.
 
