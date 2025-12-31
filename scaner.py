@@ -19,3 +19,5 @@ for res in results:
     if res:
         print(f"Порт {res} открыт")
 
+
+
