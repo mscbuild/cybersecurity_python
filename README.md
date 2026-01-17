@@ -57,9 +57,4 @@ Security Headers: Checking for missing HTTP security headers like X-Content-Type
  
 
  
- ![](https://komarev.com/ghpvc/?username=mscbuild) 
- ![](https://img.shields.io/github/license/mscbuild/cybersecurity_python) 
- ![](https://img.shields.io/github/repo-size/mscbuild/cybersecurity_python)
-![](https://img.shields.io/badge/PRs-Welcome-green)
-![](https://img.shields.io/badge/code%20style-python-green)
- 
+  
