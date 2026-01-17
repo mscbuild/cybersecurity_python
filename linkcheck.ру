@@ -1,0 +1,21 @@
+import requests
+
+def check_url_safety(url, api_key):
+    # Используем API VirusTotal для проверки ссылки
+    api_url = "https://www.virustotal.com"
+    payload = {"url": url}
+    headers = {
+        "accept": "application/json",
+        "x-apikey": api_key,
+        "content-type": "application/x-www-form-urlencoded"
+    }
+
+    response = requests.post(api_url, data=payload, headers=headers)
+    
+    if response.status_code == 200:
+        return "Ссылка отправлена на анализ. Проверьте результат в панели управления."
+    else:
+        return f"Ошибка при проверке: {response.status_code}"
+
+# API_KEY = "ваш_ключ_здесь"
+# print(check_url_safety("http://fake-bank-login.com", API_KEY))
