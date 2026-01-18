@@ -1908,4 +1908,3 @@ class MatrixDefender(tk.Tk):
 if __name__ == "__main__":
     app = MatrixDefender()
     app.mainloop()
-
