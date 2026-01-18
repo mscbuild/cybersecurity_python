@@ -72,4 +72,6 @@ def run_bot_tests(driver: Driver, _):
 
 
 if __name__ == "__main__":
+
     run_bot_tests()
+    
